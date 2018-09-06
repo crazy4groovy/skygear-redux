@@ -1,0 +1,71 @@
+{
+  "name": "skygear-todos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject-danger": "react-scripts eject",
+    "test": "xo && react-scripts test",
+    "xo": "xo --fix"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "enzyme": "^3.6.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-plugin-react": "^7.11.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-scripts": "^1.1.5",
+    "skygear": "^1.6.3",
+    "xo": "^0.23.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "xo-react"
+    ],
+    "settings": {
+      "react": {
+        "version": "15.6.2"
+      }
+    }
+  },
+  "xo": {
+    "extends": "xo-react",
+    "parser": "babel-eslint",
+    "prettier": true,
+    "space": true,
+    "esnext": true,
+    "semicolon": false,
+    "env": [
+      "node",
+      "browser",
+      "es6",
+      "jest"
+    ],
+    "globals": [
+      "__dirname",
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it"
+    ],
+    "rules": {
+      "array-element-newline": 2,
+      "no-else-return": 0,
+      "unicorn/filename-case": 0
+    }
+  }
+}
