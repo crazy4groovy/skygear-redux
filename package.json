@@ -24,9 +24,9 @@
     "eslint-config-xo-react": "^0.17.0",
     "eslint-plugin-react": "^7.11.1",
     "react-addons-test-utils": "^15.6.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "skygear": "^1.6.3",
-    "xo": "^0.23.0"
+    "xo": "^1.2.1"
   },
   "eslintConfig": {
     "extends": [
